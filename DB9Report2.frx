@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/22/2015 11:44:36" ReportInfo.Modified="05/22/2015 13:00:58" ReportInfo.CreatorVersion="2015.2.18.0">
+  <Dictionary>
+    <TableDataSource Name="Tovar" ReferenceName="dataSetTovar.Tovar" DataType="System.Int32" Enabled="true">
+      <Column Name="Code" DataType="System.Int32"/>
+      <Column Name="FirmID" DataType="System.Int32"/>
+      <Column Name="name" DataType="System.String"/>
+      <Column Name="kolvo" DataType="System.Int32"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Left="274.05" Top="9.45" Width="160.65" Height="18.9" Text="Информация о товаре"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="179.55">
+      <TableObject Name="Table1" Left="103.95" Top="66.15" Width="604.8" Height="94.5">
+        <TableColumn Name="Column1" Width="113.4"/>
+        <TableColumn Name="Column2" Width="160.65"/>
+        <TableColumn Name="Column3" Width="132.3"/>
+        <TableColumn Name="Column4" Width="132.3"/>
+        <TableColumn Name="Column5"/>
+        <TableRow Name="Row1">
+          <TableCell Name="Cell1"/>
+          <TableCell Name="Cell2"/>
+          <TableCell Name="Cell3"/>
+          <TableCell Name="Cell4"/>
+          <TableCell Name="Cell5"/>
+        </TableRow>
+        <TableRow Name="Row2">
+          <TableCell Name="Cell6"/>
+          <TableCell Name="Cell7"/>
+          <TableCell Name="Cell8"/>
+          <TableCell Name="Cell9"/>
+          <TableCell Name="Cell10"/>
+        </TableRow>
+        <TableRow Name="Row3">
+          <TableCell Name="Cell11"/>
+          <TableCell Name="Cell12"/>
+          <TableCell Name="Cell13"/>
+          <TableCell Name="Cell14"/>
+          <TableCell Name="Cell15"/>
+        </TableRow>
+        <TableRow Name="Row4">
+          <TableCell Name="Cell16"/>
+          <TableCell Name="Cell17"/>
+          <TableCell Name="Cell18"/>
+          <TableCell Name="Cell19"/>
+          <TableCell Name="Cell20"/>
+        </TableRow>
+        <TableRow Name="Row5">
+          <TableCell Name="Cell21"/>
+          <TableCell Name="Cell22"/>
+          <TableCell Name="Cell23"/>
+          <TableCell Name="Cell24"/>
+          <TableCell Name="Cell25"/>
+        </TableRow>
+      </TableObject>
+      <TextObject Name="Text3" Left="103.95" Width="94.5" Height="18.9" Text="Code"/>
+      <TextObject Name="Text5" Left="236.25" Width="94.5" Height="18.9" Text="FirmID"/>
+      <TextObject Name="Text7" Left="387.45" Width="94.5" Height="18.9" Text="name"/>
+      <TextObject Name="Text9" Left="519.75" Width="94.5" Height="18.9" Text="kolvo"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="225.35" Width="718.2" Height="302.4" DataSource="Tovar">
+      <TextObject Name="Text2" Left="103.95" Top="18.9" Width="94.5" Height="18.9" Text="[Tovar.Code]"/>
+      <TextObject Name="Text4" Left="236.25" Top="18.9" Width="94.5" Height="18.9" Text="[Tovar.FirmID]"/>
+      <TextObject Name="Text6" Left="387.45" Top="18.9" Width="94.5" Height="18.9" Text="[Tovar.name]"/>
+      <TextObject Name="Text8" Left="519.75" Top="18.9" Width="94.5" Height="18.9" Text="[Tovar.kolvo]"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="531.75" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

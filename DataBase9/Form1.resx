@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="postavshikBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>167, 17</value>
+  </metadata>
+  <metadata name="postavshikBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>167, 17</value>
+  </metadata>
+  <metadata name="dataSetPostavshik.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dataSetPostavshik.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="tovarBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>660, 17</value>
+  </metadata>
+  <metadata name="dataSetTovar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>537, 17</value>
+  </metadata>
+  <metadata name="dataSetTovar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>537, 17</value>
+  </metadata>
+  <metadata name="inftovarBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1078, 17</value>
+  </metadata>
+  <metadata name="inftovarBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1078, 17</value>
+  </metadata>
+  <metadata name="dataSetInf.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>971, 17</value>
+  </metadata>
+  <metadata name="dataSetInf.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>971, 17</value>
+  </metadata>
+  <metadata name="postavshikTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>355, 17</value>
+  </metadata>
+  <metadata name="tovarTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>818, 17</value>
+  </metadata>
+  <metadata name="inf_tovarTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 56</value>
+  </metadata>
+  <metadata name="report1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>304, 56</value>
+  </metadata>
+  <data name="report1.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="05/22/2015 11:44:36" ReportInfo.Modified="05/22/2015 14:16:59" ReportInfo.CreatorVersion="2015.2.18.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;TableDataSource Name="Postavshik" ReferenceName="dataSetPostavshik.Postavshik" DataType="System.Int32" Enabled="true"&gt;
+      &lt;Column Name="Firma" DataType="System.String"/&gt;
+      &lt;Column Name="Code" DataType="System.Int32"/&gt;
+      &lt;Column Name="Adress" DataType="System.String"/&gt;
+      &lt;Column Name="phone" DataType="System.String"/&gt;
+    &lt;/TableDataSource&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="170.1"&gt;
+      &lt;TextObject Name="Text1" Left="274.05" Top="9.45" Width="122.85" Height="18.9" Text="Табличный отчет"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="174.1" Width="718.2" Height="198.45"&gt;
+      &lt;TableObject Name="Table1" Left="132.3" Top="66.15" Width="548.1" Height="94.5"&gt;
+        &lt;TableColumn Name="Column1" Width="113.4"/&gt;
+        &lt;TableColumn Name="Column2" Width="113.4"/&gt;
+        &lt;TableColumn Name="Column3" Width="132.3"/&gt;
+        &lt;TableColumn Name="Column4" Width="122.85"/&gt;
+        &lt;TableColumn Name="Column5"/&gt;
+        &lt;TableRow Name="Row1"&gt;
+          &lt;TableCell Name="Cell1"/&gt;
+          &lt;TableCell Name="Cell2"/&gt;
+          &lt;TableCell Name="Cell3"/&gt;
+          &lt;TableCell Name="Cell4"/&gt;
+          &lt;TableCell Name="Cell5"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row2"&gt;
+          &lt;TableCell Name="Cell6"/&gt;
+          &lt;TableCell Name="Cell7"/&gt;
+          &lt;TableCell Name="Cell8"/&gt;
+          &lt;TableCell Name="Cell9"/&gt;
+          &lt;TableCell Name="Cell10"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row3"&gt;
+          &lt;TableCell Name="Cell11"/&gt;
+          &lt;TableCell Name="Cell12"/&gt;
+          &lt;TableCell Name="Cell13"/&gt;
+          &lt;TableCell Name="Cell14"/&gt;
+          &lt;TableCell Name="Cell15"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row4"&gt;
+          &lt;TableCell Name="Cell16"/&gt;
+          &lt;TableCell Name="Cell17"/&gt;
+          &lt;TableCell Name="Cell18"/&gt;
+          &lt;TableCell Name="Cell19"/&gt;
+          &lt;TableCell Name="Cell20"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row5"&gt;
+          &lt;TableCell Name="Cell21"/&gt;
+          &lt;TableCell Name="Cell22"/&gt;
+          &lt;TableCell Name="Cell23"/&gt;
+          &lt;TableCell Name="Cell24"/&gt;
+          &lt;TableCell Name="Cell25"/&gt;
+        &lt;/TableRow&gt;
+      &lt;/TableObject&gt;
+      &lt;TextObject Name="Text6" Left="500.85" Top="28.35" Width="94.5" Height="18.9" Text="phone"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;DataBand Name="Data1" Top="376.55" Width="718.2" Height="75.6" DataSource="Postavshik"&gt;
+      &lt;TextObject Name="Text2" Left="132.3" Top="9.45" Width="94.5" Height="18.9" Text="[Postavshik.Firma]"/&gt;
+      &lt;TextObject Name="Text3" Left="255.15" Top="9.45" Width="94.5" Height="18.9" Text="[Postavshik.Code]"/&gt;
+      &lt;TextObject Name="Text4" Left="378" Top="9.45" Width="94.5" Height="18.9" Text="[Postavshik.Adress]"/&gt;
+      &lt;TextObject Name="Text5" Left="500.85" Top="9.45" Width="94.5" Height="18.9" Text="[Postavshik.phone]"/&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="456.15" Width="718.2" Height="18.9"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="report2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 56</value>
+  </metadata>
+  <data name="report2.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="05/22/2015 11:44:36" ReportInfo.Modified="05/22/2015 13:12:25" ReportInfo.CreatorVersion="2015.2.18.0"&gt;
+  &lt;Dictionary/&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8"&gt;
+      &lt;TextObject Name="Text1" Left="274.05" Top="9.45" Width="160.65" Height="18.9" Text="Информация о товаре"/&gt;
+    &lt;/ReportTitleBand&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="179.55"&gt;
+      &lt;TableObject Name="Table1" Left="103.95" Top="66.15" Width="604.8" Height="94.5"&gt;
+        &lt;TableColumn Name="Column1" Width="113.4"/&gt;
+        &lt;TableColumn Name="Column2" Width="160.65"/&gt;
+        &lt;TableColumn Name="Column3" Width="132.3"/&gt;
+        &lt;TableColumn Name="Column4" Width="132.3"/&gt;
+        &lt;TableColumn Name="Column5"/&gt;
+        &lt;TableRow Name="Row1"&gt;
+          &lt;TableCell Name="Cell1"/&gt;
+          &lt;TableCell Name="Cell2"/&gt;
+          &lt;TableCell Name="Cell3"/&gt;
+          &lt;TableCell Name="Cell4"/&gt;
+          &lt;TableCell Name="Cell5"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row2"&gt;
+          &lt;TableCell Name="Cell6"/&gt;
+          &lt;TableCell Name="Cell7"/&gt;
+          &lt;TableCell Name="Cell8"/&gt;
+          &lt;TableCell Name="Cell9"/&gt;
+          &lt;TableCell Name="Cell10"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row3"&gt;
+          &lt;TableCell Name="Cell11"/&gt;
+          &lt;TableCell Name="Cell12"/&gt;
+          &lt;TableCell Name="Cell13"/&gt;
+          &lt;TableCell Name="Cell14"/&gt;
+          &lt;TableCell Name="Cell15"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row4"&gt;
+          &lt;TableCell Name="Cell16"/&gt;
+          &lt;TableCell Name="Cell17"/&gt;
+          &lt;TableCell Name="Cell18"/&gt;
+          &lt;TableCell Name="Cell19"/&gt;
+          &lt;TableCell Name="Cell20"/&gt;
+        &lt;/TableRow&gt;
+        &lt;TableRow Name="Row5"&gt;
+          &lt;TableCell Name="Cell21"/&gt;
+          &lt;TableCell Name="Cell22"/&gt;
+          &lt;TableCell Name="Cell23"/&gt;
+          &lt;TableCell Name="Cell24"/&gt;
+          &lt;TableCell Name="Cell25"/&gt;
+        &lt;/TableRow&gt;
+      &lt;/TableObject&gt;
+      &lt;TextObject Name="Text3" Left="103.95" Width="94.5" Height="18.9" Text="Code"/&gt;
+      &lt;TextObject Name="Text5" Left="236.25" Width="94.5" Height="18.9" Text="FirmID"/&gt;
+      &lt;TextObject Name="Text7" Left="387.45" Width="94.5" Height="18.9" Text="name"/&gt;
+      &lt;TextObject Name="Text9" Left="519.75" Width="94.5" Height="18.9" Text="kolvo"/&gt;
+    &lt;/PageHeaderBand&gt;
+    &lt;DataBand Name="Data1" Top="225.35" Width="718.2" Height="302.4"&gt;
+      &lt;TextObject Name="Text2" Left="103.95" Top="18.9" Width="94.5" Height="18.9" Text="[Tovar.Code]"/&gt;
+      &lt;TextObject Name="Text4" Left="236.25" Top="18.9" Width="94.5" Height="18.9" Text="[Tovar.FirmID]"/&gt;
+      &lt;TextObject Name="Text6" Left="387.45" Top="18.9" Width="94.5" Height="18.9" Text="[Tovar.name]"/&gt;
+      &lt;TextObject Name="Text8" Left="519.75" Top="18.9" Width="94.5" Height="18.9" Text="[Tovar.kolvo]"/&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="531.75" Width="718.2" Height="18.9"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+  <metadata name="report3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>488, 56</value>
+  </metadata>
+  <data name="report3.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="05/22/2015 11:44:36" ReportInfo.Modified="05/22/2015 12:53:20" ReportInfo.CreatorVersion="2015.2.18.0"&gt;
+  &lt;Dictionary/&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>

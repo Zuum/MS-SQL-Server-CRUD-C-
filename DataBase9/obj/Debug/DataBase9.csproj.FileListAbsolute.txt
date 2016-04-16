@@ -1,0 +1,13 @@
+c:\users\zuum\documents\visual studio 2013\Projects\DataBase9\DataBase9\bin\Debug\DataBase9.exe.config
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\bin\Debug\DataBase9.exe
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\bin\Debug\DataBase9.pdb
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.csprojResolveAssemblyReference.cache
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.Form1.resources
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.Properties.Resources.resources
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.TableInf.resources
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.TablePostavshik.resources
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.TableTovar.resources
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.csproj.GenerateResource.Cache
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.exe
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.pdb
+C:\Users\Zuum\Documents\Visual Studio 2013\Projects\DataBase9\DataBase9\obj\Debug\DataBase9.Query.resources

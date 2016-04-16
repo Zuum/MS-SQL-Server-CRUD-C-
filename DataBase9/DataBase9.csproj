@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15043578-3B93-4ACA-9C01-DD73D6DC7A49}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataBase9</RootNamespace>
+    <AssemblyName>DataBase9</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastReport, Version=2015.2.18.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="FastReport.Bars, Version=2015.2.18.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="FastReport.Editor, Version=2015.2.18.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AditionalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AditionalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataSetInf.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataSetInf.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetInf1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetInf1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataSetPostavshik.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataSetPostavshik.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPostavshik1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPostavshik1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataSetTovar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataSetTovar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTovar1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTovar1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryHandler.cs" />
+    <Compile Include="TableInf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableInf.Designer.cs">
+      <DependentUpon>TableInf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TablePostavshik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TablePostavshik.Designer.cs">
+      <DependentUpon>TablePostavshik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableTovar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableTovar.Designer.cs">
+      <DependentUpon>TableTovar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableInf.resx">
+      <DependentUpon>TableInf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TablePostavshik.resx">
+      <DependentUpon>TablePostavshik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableTovar.resx">
+      <DependentUpon>TableTovar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AditionalDataSet.xsc">
+      <DependentUpon>AditionalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AditionalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AditionalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AditionalDataSet.xss">
+      <DependentUpon>AditionalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dataSetInf.xsc">
+      <DependentUpon>dataSetInf.xsd</DependentUpon>
+    </None>
+    <None Include="dataSetInf.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataSetInf.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataSetInf.xss">
+      <DependentUpon>dataSetInf.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetInf1.xsc">
+      <DependentUpon>DataSetInf1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetInf1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetInf1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetInf1.xss">
+      <DependentUpon>DataSetInf1.xsd</DependentUpon>
+    </None>
+    <None Include="dataSetPostavshik.xsc">
+      <DependentUpon>dataSetPostavshik.xsd</DependentUpon>
+    </None>
+    <None Include="dataSetPostavshik.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataSetPostavshik.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataSetPostavshik.xss">
+      <DependentUpon>dataSetPostavshik.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPostavshik1.xsc">
+      <DependentUpon>DataSetPostavshik1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPostavshik1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPostavshik1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetPostavshik1.xss">
+      <DependentUpon>DataSetPostavshik1.xsd</DependentUpon>
+    </None>
+    <None Include="dataSetTovar.xsc">
+      <DependentUpon>dataSetTovar.xsd</DependentUpon>
+    </None>
+    <None Include="dataSetTovar.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataSetTovar.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataSetTovar.xss">
+      <DependentUpon>dataSetTovar.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTovar1.xsc">
+      <DependentUpon>DataSetTovar1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTovar1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTovar1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetTovar1.xss">
+      <DependentUpon>DataSetTovar1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
